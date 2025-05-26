@@ -10,7 +10,6 @@
     - [Sprint 3](#sprint-3)
     - [Sprint 4](#sprint-4)
   - [Diseño del Sistema](#diseño-del-sistema)
-  - [](#)
   - [Implementación](#implementación)
   - [Pruebas](#pruebas)
   - [Gestión del Proyecto](#gestión-del-proyecto)
@@ -160,14 +159,15 @@ Criterios de aceptación:
 
 ## Diseño del Sistema
 * Diagrama de Modelo entidad-relación (ER) tipo UML
-![Modelo entidad-relación](supabase-schema-inbclfmbtjzjiulzudmv.png)
+![Modelo entidad-relación](Anexos/supabase-schema-inbclfmbtjzjiulzudmv.png)
 
-* Diseños de interfaces de usuario (mockups, wireframes)
-![Icono de carrito](image-3.png)
-![Diagrama de flujo de adición de productos al carrito](image-4.png)
+* Diseños de interfaces de usuario
+![Icono de carrito](Anexos/image-3.png)
+![Diagrama de flujo de adición de productos al carrito](Anexos/image-4.png)
 
 * Diagrama de la funcionalidad a cambiar: Tarjetas
-![Cómo se implementan las tarjetas de pedidos](image.png)
+![Cómo se implementan las tarjetas de pedidos](Anexos/image.png)
+
 ---
 
 ## Implementación
@@ -361,8 +361,8 @@ export default CardActions;
 
 ## Pruebas
 
-<video controls src="Carrito&RegistroObligatorio.mp4" title="Obtener carrito, registro e inicio obligatorio de sesión"></video>
-<video controls src="GestionCarrito.mp4" title="Gestión de productos del carrito"></video>
+<video controls src="Anexos/Carrito&RegistroObligatorio.mp4" title="Obtener carrito, registro e inicio obligatorio de sesión"></video>
+<video controls src="Anexos/GestionCarrito.mp4" title="Gestión de productos del carrito"></video>
 
 ---
 
@@ -374,14 +374,14 @@ export default CardActions;
   * Puntualidad, no se hace nada si uno no es responsable de sus acciones ni las termina a tiempo. Una mala organización también causa problemas para presentar las tareas a tiempo.
   * Bajo acoplamiento, como mencioné anteriormente, la dependencia entre componentes puede causar retrasos a algunas personas, para evitarlo se debe atomizar lo más posible las tareas asignadas y hacerlas lo más independientes posibles, esto se puede hacer gracias a los mock-ups y a saltar pasos durante el desarrollo, una vez comprobadas las pruebas unitarias, se pasan a las de integración: Unir los componentes y revisar que sigan funcionando debidamente.
 * Cronograma / Diagrama de Gantt:
-![Diagrama de Gantt](image-1.png)
+![Diagrama de Gantt](Anexos/image-1.png)
 * Métricas del trabajo realizado:
-[Métricas del trabajo realizado](DanielPenaranda_Metrica.pdf)
+[Métricas del trabajo realizado](Anexos/DanielPenaranda_Metrica.pdf)
 
 ---
 
 ## Anexos
 
 * Presentación en PPT de la gestión del proyecto
-[Presentación](DanielPenaranda_GestionTaller.pdf)
+[Presentación](Anexos/DanielPenaranda_GestionTaller.pdf)
 ---
